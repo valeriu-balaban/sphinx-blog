@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 # Ph.D. Thoughts build configuration file, created by
 # `ablog start` on Wed Feb 27 15:30:46 2019.
@@ -132,7 +130,7 @@ html_sidebars = {
 
 # Link to `Font Awesome`_ at `Bootstrap CDN`_ and use icons in sidebars
 # and post footers.  Default: ``False``
-fontawesome_link_cdn = True
+fontawesome_link_cdn = 'https://use.fontawesome.com/releases/v5.7.2/css/all.css'
 
 # Sphinx_ theme already links to `Font Awesome`_.  Default: ``False``
 #fontawesome_included = False
@@ -141,16 +139,16 @@ fontawesome_link_cdn = True
 # with the configuration option: fontawesome_css_file
 # Path to `Font Awesome`_ :file:`.css` (default is ``None``) that will
 # be linked to in HTML output by ABlog.
-#fontawesome_css_file = None
+#fontawesome_css_file = 'font-awesome.min.css'
 
 # -- Disqus Integration -------------------------------------------------------
 
 # You can enable Disqus_ by setting ``disqus_shortname`` variable.
 # Disqus_ short name for the blog.
-#disqus_shortname = None
+disqus_shortname = 'phdthoughts'
 
 # Choose to disqus pages that are not posts, default is ``False``.
-#disqus_pages = False
+disqus_pages = True
 
 # Choose to disqus posts that are drafts (without a published date),
 # default is ``False``.
